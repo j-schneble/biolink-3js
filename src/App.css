@@ -35,7 +35,7 @@ video {
 }
 
 .header {
-  margin-top: 3em;
+  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -47,8 +47,9 @@ video {
 }
 
 .logo{
-  width: 6em;
-  height: 6.5em;
+  width: 7em;
+  height: 7em;
+  padding: 4px;
   border-radius: 100%;
   border: 1px solid rgb(255, 255, 255);
   box-shadow: rgb(28 32 93 / 44%) 0px 2px 8px 0px;
@@ -67,14 +68,12 @@ video {
 }
 .head {
   
-    padding-top: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position:relative;
-    margin-left: 13px;
-    
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
    
 }
 .animated {
@@ -84,11 +83,11 @@ video {
 }
 .in-a {
   display: inline-block;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: bold;
   border-radius: 1em;
   background-color: azure;
-  
+  padding: 0.3em 0.6em;
   color: rgb(0, 0, 0);
   
   border: 1px solid #fffa;
@@ -100,8 +99,8 @@ ul {
   box-sizing: border-box;
   list-style: none;
   margin: 0 auto;
- 
-  max-width: 460px;
+  padding: 2em;
+  max-width: 480px;
 }
 
 ul > li {
@@ -114,7 +113,7 @@ ul > li {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.853);
-  margin-right: 14px;
+  
 }
 
 ul > li > a {
