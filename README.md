@@ -1,28 +1,29 @@
-# Getting Started with Create React App
+## 3js Biolink
+
+<img width="1680" alt="Screen Shot 2022-08-23 at 10 44 05 PM" src="https://user-images.githubusercontent.com/60337134/186308320-677a2698-036f-41b0-aa53-3de5d5437a3c.png">
+
+## A links page for my social media bio 
+
+## Demo
+### [🔗 3js Biolink](https://biolink-3js.vercel.app/)
+
+## Stack
+- [React](https://reactjs.org/)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [Three](https://threejs.org/docs/#api/en/geometries/SphereGeometry)
 
 
+## Clone this repository
+```bash
+https://github.com/j-schneble/biolink-3js
+```
 
-## Install Dependencies
+## Install dependencies
+```bash
+npm install
+```
 
-## `npm install`
-
-##then run
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
+## Runs on [http://localhost:3000](http://localhost:3000)
+```bash
+npm start
+```
